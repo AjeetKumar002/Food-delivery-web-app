@@ -1,0 +1,30 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-wrapper ul li {
+    padding: 1rem;
+}
+
+.header-wrapper ul li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+}
